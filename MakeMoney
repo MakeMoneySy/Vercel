@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>שוק ההון למתחילים - הכסף החכם</title>
+  <style>
+    body { font-family: Arial, sans-serif; direction: rtl; text-align: center; padding: 40px; }
+    h1 { color: #2a6ebb; }
+    button {
+      background-color: #0070ba;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <h1>ברוכים הבאים לקורס שוק ההון למתחילים</h1>
+  <p>קורס איכותי שילמד אותך את הבסיס להשקעות ולמסחר בצורה חכמה.</p>
+
+  <!-- טופס תשלום PayPal -->
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="natanel16522@gmail.com" />
+    <input type="hidden" name="item_name" value="קורס שוק ההון למתחילים" />
+    <input type="hidden" name="amount" value="500.00" />
+    <input type="hidden" name="currency_code" value="ILS" />
+    <input type="hidden" name="return" value="thankyou.html" />
+    <button type="submit">שלם 500 ש"ח עכשיו</button>
+  </form>
+</body>
+</html><!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>תודה על הרכישה!</title>
+  <style>
+    body { font-family: Arial, sans-serif; direction: rtl; text-align: center; padding: 50px; }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background-color: #0070ba;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    a:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <h1>תודה שרכשת את הקורס!</h1>
+  <p>כעת תוכל להתחיל ללמוד את חומרי הקורס כאן:</p>
+  <a href="course.html">לכניסה לקורס</a>
+</body>
+</html><!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>קורס שוק ההון למתחילים</title>
+  <style>
+    body { font-family: Arial, sans-serif; direction: rtl; padding: 20px; }
+    h1, h2 { color: #2a6ebb; }
+  </style>
+</head>
+<body>
+  <h1>שלב 1: מה זה שוק ההון?</h1>
+  <p>שוק ההון הוא זירה בה סוחרים בניירות ערך כמו מניות, אג"ח ועוד.</p>
+
+  <h2>שלב 2: איך לסחור חכם</h2>
+  <p>סוחר חכם בודק את השוק, לומד אסטרטגיות, ולא פועל מתוך רגש.</p>
+
+  <h2>שלב 3: פתיחת חשבון מסחר</h2>
+  <p>תוכל לפתוח חשבון דרך בתי השקעות או אפליקציות ייעודיות כמו מיטב דש, אקסלנס, טריידסטיישן ועוד.</p>
+
+  <h2>שלב 4: טיפים להתחלה</h2>
+  <ul>
+    <li>תתחיל עם סכום קטן</li>
+    <li>ללמוד כל הזמן</li>
+    <li>לא לפחד מתיקונים בשוק</li>
+    <li>להתמיד!</li>
+  </ul>
+</body>
+</html>
